@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  color: black;
+  text-align: right;
+  font-size: 25px;
+  padding: 50px 20px;
+  font-family: "Work Sans", sans-serif;
+  word-spacing: 5px;
+}
+
+.title {
+  font-family: "Birthstone", cursive;
+  font-size: 100px;
+  padding-left: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav:hover {
+  color: black;
+  background-color: transparent;
+  opacity: 40%;
+}

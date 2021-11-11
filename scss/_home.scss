@@ -1,0 +1,21 @@
+.subtitulo {
+  padding-top: 70px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 80px;
+  color: black;
+}
+
+.imagenes__home {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+
+.burger__image {
+  margin-bottom: 70px;
+}
+
+.burger__image:hover {
+  box-shadow: 8px 8px 8px black;
+}
