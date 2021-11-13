@@ -6,7 +6,6 @@
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 .navbar {
@@ -22,6 +21,7 @@ a {
   font-family: "Birthstone", cursive;
   font-size: 100px;
   padding-left: 30px;
+  color: black;
 }
 
 .header {
@@ -62,21 +62,35 @@ a {
   color: black;
   font-size: 70px;
   margin-top: 100px;
+  margin-bottom: 100px;
   font-family: "Work Sans", sans-serif;
 }
 
 .menu {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 100px;
-  font-family: "Bebas Neue", cursive;
-  font-size: 70px;
+  justify-content: space-around;
 }
 
-.options__menu {
-  background-color: #b9b9b9;
-  padding: 120px;
-  word-spacing: 10px;
+.fondo__menu {
+  background-color: #c0c0c0;
+  padding: 100px;
+  margin-bottom: 100px;
+}
+
+button {
+  color: black;
+  text-decoration: none;
+  padding: 50px;
+  font-weight: 600;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 50px;
+  border: 2px solid black;
+  font-family: "Bebas Neue", cursive;
+}
+
+button a {
+  color: black;
 }
 
 .title__carne {
@@ -87,26 +101,279 @@ a {
   font-family: "Work Sans", sans-serif;
 }
 
-.menu__carne {
-  display: flex;
-  justify-content: space-between;
-  margin: 200px;
-  margin-top: 20px;
-}
-
 p {
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .title__burger {
   font-size: 25px;
   text-align: center;
   font-family: "Work Sans", sans-serif;
+  margin-top: 20px;
 }
 
-.row {
+.container {
   display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col__burger {
+  padding: 10px;
+}
+
+.row__burger {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+h6 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+.texto {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+h6 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 60px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.nosotros {
+  width: 700px;
+  margin-left: 420px;
+  border: 5px solid black;
+  border-radius: 15px;
+  margin-bottom: 80px;
+  padding: 50px;
+}
+
+.titulo__contacto {
+  text-align: left;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.titulo__section {
+  text-align: center;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+.ubicacion {
+  text-align: left;
+  color: black;
+  font-family: "bebas neue", cursive;
+  font-size: 30px;
+  margin-left: 280px;
+  margin-top: 5px;
+}
+
+iframe {
+  margin-left: 100px;
+}
+
+.contacto {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.redes {
+  color: black;
+  text-decoration: none;
+  font-size: 50px;
+  margin: 50px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.redes a {
+  color: black;
+}
+
+.redes__logos {
+  display: flex;
+  margin-left: 100px;
+}
+
+.titulo__delivery {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.titulo__delivery-secundario {
+  margin-top: 150px;
+}
+
+.delivery {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  color: black;
+  margin-bottom: 150px;
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .title {
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .header {
+    display: grid;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    text-align: center;
+  }
+
+  .subtitulo {
+    font-size: 40px;
+  }
+
+  .imagenes__home {
+    display: grid;
+    background-size: cover;
+  }
+
+  .fondo__home {
+    width: 700px;
+  }
+
+  .menu {
+    display: grid;
+    grid-gap: 10px;
+  }
+
+  .row__burger {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title__burger {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 15px;
+    width: 300px;
+    padding: 20px;
+    height: 80px;
+    text-align: right;
+  }
+
+  .col__burger {
+    padding: 0;
+    width: 450px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h6 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .texto {
+    font-family: "Bebas Neue", cursive;
+    font-size: 12px;
+    text-align: center;
+    width: auto;
+  }
+
+  h6 {
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .nosotros {
+    width: 350px;
+    margin-left: 0px;
+    margin-bottom: 8px;
+    padding: 5px;
+    height: 100px;
+    border: none;
+  }
+
+  .contacto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo__contacto {
+    text-align: left;
+    color: black;
+    font-family: "Bebas Neue", cursive;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  .titulo__section {
+    text-align: center;
+    color: black;
+    font-family: "Bebas Neue", cursive;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  .ubicacion {
+    text-align: center;
+    color: black;
+    font-family: "bebas neue", cursive;
+    font-size: 15px;
+    margin: 0;
+  }
+
+  iframe {
+    width: 350px;
+    align-items: left;
+    margin-left: 10px;
+  }
+
+  .redes__logos {
+    display: grid;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .redes {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=import.css.map */

@@ -1,0 +1,53 @@
+.titulo__contacto {
+  text-align: left;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.titulo__section {
+  text-align: center;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+.ubicacion {
+  text-align: left;
+  color: black;
+  font-family: "bebas neue", cursive;
+  font-size: 30px;
+  margin-left: 280px;
+  margin-top: 5px;
+}
+
+iframe {
+  margin-left: 100px;
+}
+
+.contacto {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.redes {
+  color: black;
+  text-decoration: none;
+  font-size: 50px;
+  margin: 50px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.redes a {
+  color: black;
+}
+
+.redes__logos {
+  display: flex;
+  margin-left: 100px;
+}
